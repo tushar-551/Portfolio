@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" fill-rule="evenodd" clip-rule="evenodd">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD700" />
+      <stop offset="100%" style="stop-color:#FFA500" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#gradient)" rx="15%" />
+  <path fill="#fff" d="M164.56 180.3h-55.34v188.9h55.34v-188.9zm-27.67-27.67c-17.76 0-32.18-14.42-32.18-32.18s14.42-32.18 32.18-32.18 32.18 14.42 32.18 32.18-14.42 32.18-32.18 32.18zm229.65 127.11v89.46h-55.34v-83.55c0-21.37-7.66-35.92-26.83-35.92-14.64 0-23.32 9.81-27.14 19.29-1.41 3.47-1.77 8.31-1.77 13.15v87.04h-55.34s.74-141.12 0-155.84h55.34v22.09c7.34-11.34 20.48-27.54 49.8-27.54 36.37 0 63.57 23.74 63.57 74.82z" />
+</svg>
