@@ -805,7 +805,7 @@ const projectData = {
     linkedinUrl: "https://www.linkedin.com/feed/update/urn:li:activity:7249969411044872192/",
     githubUrl: "https://github.com/tushar-551/Store-Sales-Data-Analysis-Using-Jupyter-Notebook",
     tools: ["Python", "Pandas", "Matplotlib", "Seaborn", "Jupyter"],
-    slides: ["./assets-2/python-store-analysis.jpg"],
+    slides: ["./assets-2/New Asset/Store sale cover python.jpg"],
     objectives: [
         "Preprocess raw retail data (handling nulls, date parsing)",
         "Segment performance by Region, Category, and Time",
