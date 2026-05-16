@@ -122,7 +122,7 @@ window.projectData = {
             "Complex DAX modeling for keyword ranking & growth rates",
             "Interactive filtering for comparative trend analysis"
         ],
-        dashboardUrl: "https://app.powerbi.com/view?r=eyJrIjoiYWE1ZGVkNGMtNDYwMi00NjA3LWE5YzAtNjg5Y2ZlMTBhZTJjIiwidCI6IjI1Y2UwMjYxLWJiZDYtNDljZC1hMWUyLTU0MjYwODg2ZDE1OSJ9"
+        dashboardUrl: "https://app.powerbi.com/view?r=eyJrIjoiNzI4MTkxMWMtMDliYy00OTAzLWE5NmMtMThkNDQyM2M4NjlmIiwidCI6IjI1Y2UwMjYxLWJiZDYtNDljZC1hMWUyLTU0MjYwODg2ZDE1OSJ9"
     },
 
 
