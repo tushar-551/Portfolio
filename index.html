@@ -4,14 +4,14 @@
 <head>
 
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-QFDMPJ9QHC"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QFDMPJ9QHC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-QFDMPJ9QHC');
-</script>
+    gtag('config', 'G-QFDMPJ9QHC');
+  </script>
 
 
 
@@ -20,14 +20,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <meta property="og:title" content="Tushar Kshirsagar Portfolio" />
-  <meta property="og:description" content="Explore Tushar Kshirsagar projects in data analysis, visualization, and machine learning" />
-  <meta property="og:image" content="./assets-2/New Asset/Profile Photo.png" />
+  <meta property="og:description"
+    content="Explore Tushar Kshirsagar projects in data analysis, visualization, and machine learning" />
+  <meta property="og:image" content="./assets-2/new-asset/Profile Photo.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
 
-    <!-- Optional Twitter meta tags for better sharing on Twitter -->
+  <!-- Optional Twitter meta tags for better sharing on Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:image" content="./assets-2/New Asset/Profile Photo.png" />
+  <meta name="twitter:image" content="./assets-2/new-asset/Profile Photo.png" />
 
   <title>Tushar Kshirsagar- Portfolio</title>
 
@@ -36,7 +37,7 @@
   <!--
     - favicon
   -->
-  <link rel="shortcut icon" href="./assets-2/New Asset/logo.png" type="image/x-icon">
+  <link rel="shortcut icon" href="./assets-2/new-asset/logo.png" type="image/x-icon">
 
   <!--
     - custom css link
@@ -68,7 +69,7 @@
       <div class="sidebar-info">
 
         <figure class="avatar-box">
-          <img src="./assets-2/New Asset/Profile Photo.png" alt="Tushar Kshirsagar" width="80">
+          <img src="./assets-2/new-asset/Profile Photo.png" alt="Tushar Kshirsagar" width="80">
         </figure>
 
         <!-- <div class="info-content">
@@ -78,7 +79,7 @@
         </div> -->
 
         <div class="info-content">
-          <h1 class="name" title="Tushar Kshirsagar">Tushar Kshirsagar</h1>          <!-- modfied code-->
+          <h1 class="name" title="Tushar Kshirsagar">Tushar Kshirsagar</h1> <!-- modfied code-->
           <p class="title" id="typewriter"></p>
         </div>
 
@@ -159,11 +160,10 @@
 
         <div class="separator"></div>
 
-        <a href="./resume.pdf" download="Tushar_Kshirsagar_Resume" class="download-link">
-          <button class="form-btn" type="submit" data-form-btn>
-            <ion-icon name="arrow-down"></ion-icon>
-            <span>Download Resume</span>
-          </button>
+        <a href="./resume.pdf" download="Tushar_Kshirsagar_Resume" class="form-btn download-link"
+          style="text-decoration: none;">
+          <ion-icon name="arrow-down"></ion-icon>
+          <span>Download Resume</span>
         </a>
 
 
@@ -253,7 +253,7 @@
 
 
 
-      
+
 
 
 
@@ -282,11 +282,11 @@
             <button class="navbar-link" data-nav-link>Certificates</button>
           </li> -->
 
-          <!-- <li class="navbar-item">
+      <!-- <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Resources</button>
           </li> -->
 
-          <!-- <li class="navbar-item">
+      <!-- <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Contact</button>
           </li>
 
@@ -313,27 +313,58 @@
           <h2 class="h2 article-title">About me</h2>
         </header>
 
+        <section class="hero-intro" style="margin-bottom: 25px;">
+          <div class="content-card"
+            style="padding: 20px; background: var(--border-gradient-onyx); border-radius: 14px; box-shadow: var(--shadow-1); border: 1px solid var(--jet); display: flex; flex-direction: column; gap: 15px;">
+            <div>
+              <h3 style="color: var(--orange-yellow-crayola); font-weight: 500; font-size: 1.1rem; margin-bottom: 4px;">
+                Power BI Developer & Data Analyst</h3>
+              <p style="color: var(--white-2); font-weight: 500; font-size: 0.95rem; margin-bottom: 8px;">
+                Microsoft Certified Fabric Analytics Engineer (DP-600)</p>
+              <p style="color: var(--light-gray); line-height: 1.5; font-size: var(--fs-6); margin: 0; font-style: italic;">
+                &gt; Most dashboards show you what happened. I build ones that tell you what to do about it.
+              </p>
+            </div>
+
+            <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+              <span class="skill-level" style="margin: 0; padding: 4px 10px; font-size: 12px; font-weight: 600;">3 Years Experience</span>
+              <span class="skill-level" style="margin: 0; padding: 4px 10px; font-size: 12px; font-weight: 600;">Power BI</span>
+              <span class="skill-level" style="margin: 0; padding: 4px 10px; font-size: 12px; font-weight: 600;">SQL</span>
+              <span class="skill-level" style="margin: 0; padding: 4px 10px; font-size: 12px; font-weight: 600;">DAX</span>
+              <span class="skill-level" style="margin: 0; padding: 4px 10px; font-size: 12px; font-weight: 600;">Python</span>
+              <span class="skill-level" style="margin: 0; padding: 4px 10px; font-size: 12px; font-weight: 600;">Microsoft Fabric</span>
+            </div>
+
+            <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-top: 5px;">
+              <button class="form-btn" data-nav-link style="width: max-content; padding: 10px 18px; font-size: 13px;">
+                <span>View Projects</span>
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+              </button>
+            </div>
+          </div>
+        </section>
+
         <section class="about-text">
           <p>
-            Hi, I'm <strong>Tushar Kshirsagar</strong> — a data professional based in <strong>Pune, India</strong>. With over <strong>2 years of hands-on experience</strong> as a <strong>Power BI Developer and Data Analyst</strong>, I specialize in transforming raw data into <strong>strategic business insights</strong>.
+            I'm a <strong>Power BI Developer</strong> and <strong>Data Analyst</strong> based in Pune, with two years of hands-on work across finance and healthcare.
           </p>
           <p>
-            I've worked across <strong>financial</strong> and <strong>healthcare domains</strong>, building <strong>scalable dashboards</strong> and <strong>data pipelines</strong> using <strong>Power BI, SQL, and Python</strong>. From predicting high-risk customers to enabling <strong>real-time patient monitoring</strong>, I ensure that data leads to <strong>impact</strong>.
+            My most concrete result: I built a <strong>SQL-based risk scoring model</strong> for a loan recovery team that was consistently reacting to defaults too late. The model weighted overdue history, missed payments, and customer profile data to flag high-risk accounts before they defaulted. Defaults dropped <strong>18%</strong> and collections recovered <strong>$1.1M+</strong>. I also built the <strong>Power BI</strong> reporting layer and automated the weekly alerts that gave the team time to act.
           </p>
           <p>
-            My work has directly contributed to <strong>reducing defaults by 18%</strong> and supporting <strong>$1.1M+ in financial recoveries</strong> — by <strong>automating risk scoring models</strong> and <strong>improving reporting speed</strong>. I believe in combining <strong>logic with clarity</strong> so stakeholders get not just data, but direction.
+            In healthcare, I set up a live patient vitals pipeline from <strong>Cassandra</strong> into <strong>Power BI</strong>, with threshold-based alert logic so hospital staff could respond to critical events in real time, not after the fact.
           </p>
           <p>
-            When I’m not working with dashboards or datasets, I’m likely exploring <strong>new tech tools</strong> or simplifying processes through <strong>automation</strong>. I bring a <strong>calm, analytical mindset</strong> to every challenge — always seeking <strong>smarter ways to solve problems</strong>.
+            I recently cleared the <strong>DP-600</strong> exam (<strong>Microsoft Certified: Fabric Analytics Engineer Associate</strong>), which reflects where I'm heading with cloud-scale analytics and <strong>Microsoft Fabric</strong>. My core tools are <strong>Power BI</strong>, <strong>DAX</strong>, <strong>SQL</strong>, and <strong>Python</strong>. What I care about is whether the output actually changes how a team makes decisions. If it doesn't, the dashboard isn't done.
           </p>
         </section>
 
 
-          <!-- <p style="text-align-justify;">
+        <!-- <p style="text-align-justify;">
             I bring a personal touch to each project, ensuring my work reflects a professional, clean, and minimalistic style.
           </p> -->
 
-          <!-- <P style="text-align: justify;">
+        <!-- <P style="text-align: justify;">
             I’m recognized for my organizational skills, my ability to solve complex problems efficiently, and my calm approach to crafting effective solutions even in high-pressure situations.
           </P> -->
         </section>
@@ -347,17 +378,11 @@
         -->
 
         <!-- Add this just before the "What I'm doing" section -->
-<section class="about-text">
-  <!-- Existing paragraphs... -->
 
-
-
-  <!-- Rest of the "What I'm doing" section... -->
-</section>
 
         <section class="service">
 
-          <h3 class="h3 service-title">What i'm doing</h3>
+          <h3 class="h3 service-title">What I'm Doing</h3>
 
           <ul class="service-list">
 
@@ -415,7 +440,7 @@
         </section>
 
         <section class="skill-marquee">
-          
+
           <h3 class="h3 service-title">Technologies I Use</h3>
 
           <div class="logo-marquee-container content-card">
@@ -438,143 +463,7 @@
         </section>
 
 
-        <!-- <section class="testimonials">
 
-          <h3 class="h3 testimonials-title">Here’s What People in Tech Think of Me</h3>
-
-          <ul class="testimonials-list has-scrollbar">
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </section> -->
-
-
-         <div class="modal-container" data-modal-container>
-
-          <div class="overlay" data-overlay></div>
-
-          <section class="testimonials-modal">
-
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-              </figure>
-
-              <!-- <img src="./assets/images/icon-quote.svg" alt="quote icon" onclick="window.location.href='https://www.linkedin.com'" style="cursor: pointer;"> -->
-
-            </div>
-
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-
-              <div data-modal-text>
-                <p>
-                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                  lot of experience
-                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                  consectetur adipiscing
-                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                </p>
-              </div>
-
-            </div> 
-
-          </section> 
-        </div>
 
         <!-- <h3 class="h3 network-title">Network & Chill</h3>
 
@@ -671,7 +560,7 @@
               </a>
             </li> -->
 
-            <!-- <li class="blog-post-item">
+        <!-- <li class="blog-post-item">
               <a href=https://www.linkedin.com/posts/srinrealyf_networking-dataanalytics-codebasics-activity-7223183506036641792-2MMM?utm_source=social_share_send&utm_medium=member_desktop_web>
 
                 <figure class="blog-banner-box">
@@ -693,113 +582,11 @@
               </a>
             </li> -->
 
-          </ul>
+        </ul>
 
         </section>
 
-        <!-- <section class="testimonials">
 
-          <h3 class="h3 testimonials-title">What Folks in Tech Say About Me</h3>
-
-          <ul class="testimonials-list has-scrollbar">
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets-2/raghavan.png" alt="Raghavan P" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>
-                  Raghavan P
-                  <a href="https://www.linkedin.com/in/raghavan-rp/" target="_blank" class="linkedin-icon">
-                    <img src="./assets-2/linkedin.png" alt="LinkedIn" width="20">
-                  </a>
-                </h4>
-
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    I met Tushar through networking events in Chennai and he has now been actively working with me in building a community for data professionals in Chennai.
-
-<br> <br>His <B>technical and presentation skills are noteworthy.</B> In fact, the python to library he built to support data generation for Indian IDs was something exceptional.
-
-<br> <br>Along with the skills, <B>he has a great attitude and is very easy to work and collaborate with.</B> I'd highly recommend his skills and attitude to those looking to work with him in the future!
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets-2/harish.png" alt="Harish Vishwa Senthil" width="60" data-testimonials-avatar>
-                </figure>
-
-
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Harish Vishwa</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Tushar Kshirsagar is a vibrant techie with remarkable agility in delivering projects that stand out from the crowd. 
-                    <Br><br> From all the tech-centric discussions I've had with him, <B>I have observed two strong traits: passion and creativity.</b>
-                    <br><br> I am confident he will add immense value to any organization he is associated with!
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-          </ul> -->
-
-        </section> 
 
 
 
@@ -866,9 +653,9 @@
 
       <article class="resume" data-page="resume">
 
-          <header>
-            <h2 class="h2 article-title">Experience</h2>
-          </header>
+        <header>
+          <h2 class="h2 article-title">Experience</h2>
+        </header>
 
 
 
@@ -881,12 +668,12 @@
             </div>
             <div class="exp-content">
               <h4 class="job-title">Power BI Developer</h4>
-              <p class="company">Infosavant Technologies Pvt Ltd | [Month Year] – Present</p>
+              <p class="company">Luminaire Technologies | Mar 2024 – Present</p>
               <ul class="experience-points">
-                <li><strong>Real-Time Healthcare Monitoring:</strong> Led development of a solution integrating <strong>Cassandra database</strong> with Power BI, enabling live analytics for patient safety.</li>
-                <li>Created interactive dashboards with <strong>Row-Level Security (RLS)</strong> and <strong>DAX-driven KPIs</strong> to support daily decision-making.</li>
-                <li>Designed a dynamic <strong>Recovery Planning Dashboard</strong> that helped reduce overdue accounts by <strong>18%</strong> by forecasting high-risk segments.</li>
-                <li>Designed <strong>alert logic</strong> to flag critical health events, facilitating <strong>real-time intervention</strong> by hospital staff.</li>
+                <li><strong>Promoted from Data Analyst</strong> after nine months. Took ownership of a high-stakes loan recovery project where the business was losing recoverable revenue to late intervention.</li>
+                <li>Built a <strong>SQL-based risk scoring model</strong> that ranked 500+ loan accounts by overdue days and repayment behavior. The model fed a <strong>Recovery Planning Dashboard</strong> in <strong>Power BI</strong>, providing a prioritized action list instead of raw data.</li>
+                <li>Results: <strong>18% reduction</strong> in loan defaults, <strong>22% improvement</strong> in repayment rates, and <strong>$1.1M+</strong> in recovered collections.</li>
+                <li><strong>Automated weekly reporting</strong> for 500+ accounts, eliminating manual reviews and ensuring the recovery team had fresh data every cycle.</li>
               </ul>
             </div>
           </div>
@@ -897,24 +684,25 @@
             </div>
             <div class="exp-content">
               <h4 class="job-title">Data Analyst</h4>
-              <p class="company">Infosavant Technologies Pvt Ltd | Oct 2022 – [Month Year]</p>
+              <p class="company">Luminaire Technologies | Jun 2023 – Mar 2024</p>
               <ul class="experience-points">
-                <li>Developed an automated <strong>Risk Scoring System</strong> to categorize customer profiles based on payment history, improving recovery strategies.</li>
-                <li>Optimized <strong>SQL queries</strong> for faster data refresh cycles, successfully reducing dashboard load time by <strong>60%</strong>.</li>
-                <li>Reduced manual effort by <strong>40%</strong> by automating health metric tracking and alert generation using <strong>Power Query</strong>.</li>
-                <li>Collaborated with stakeholders to define metrics, UI flow, and reporting views to align with <strong>business operations</strong>.</li>
+                <li>First role. Worked on a <strong>real-time healthcare monitoring</strong> project where hospital staff needed live visibility into patient vitals.</li>
+                <li>Connected patient vitals from a <strong>Cassandra-based</strong> source into <strong>Power BI</strong>, building dashboards for heart rate and oxygen levels with alert-based KPI logic for real-time emergency response.</li>
+                <li>Implemented <strong>Row-Level Security (RLS)</strong> so staff only accessed data for assigned patients, protecting sensitive patient data while maintaining operational visibility.</li>
+                <li>Cut dashboard load times by <strong>60%</strong> through <strong>SQL query restructuring</strong> and optimizing the data refresh logic.</li>
+                <li>Reduced manual effort by <strong>40%</strong> by automating the data preparation workflow in <strong>Power Query</strong>, eliminating manual extraction and cleaning.</li>
               </ul>
             </div>
           </div>
         </section>
 
 
-        
-
-        
 
 
-</section>
+
+
+
+        </section>
 
 
 
@@ -928,10 +716,12 @@
 
           <ol class="timeline-list">
             <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">B.Tech in Information Technology - G.H. Raisoni College of Engineering, Nagpur</h4>
+              <h4 class="h4 timeline-item-title">B.Tech in Information Technology - G.H. Raisoni College of Engineering,
+                Nagpur</h4>
               <span>Aug 2018 – May 2022</span>
               <p class="timeline-text">
-                Specialized in data science, analytics, and software development. Participated in academic projects using Python, SQL, and data visualization tools.
+                Specialized in data science, analytics, and software development. Participated in academic projects
+                using Python, SQL, and data visualization tools.
               </p>
             </li>
           </ol>
@@ -997,145 +787,75 @@
         <section class="skills">
           <h3 class="h3 skills-title">My Skills</h3>
 
-          <ul class="skills-list">
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">Power BI Desktop & Services</h5>
-                <data class="skill-percent">90%</data>
+          <ul class="skills-list new-skills-grid">
+            <li class="skill-card">
+              <div class="skill-header">
+                <h5 class="h5">Power BI Desktop & Service</h5>
+                <span class="skill-level">Proficient</span>
               </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
+              <p class="skill-desc">Dashboard development, data modeling, report publishing, and interactive visuals.
+              </p>
             </li>
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">DAX (Data Analysis Expressions)</h5>
-                <data class="skill-percent">92%</data>
+            <li class="skill-card">
+              <div class="skill-header">
+                <h5 class="h5">DAX</h5>
+                <span class="skill-level">Proficient</span>
               </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 92%;"></div>
-              </div>
+              <p class="skill-desc">Measures, calculated columns, filter context, CALCULATE, and KPI logic.</p>
             </li>
-
-            <li class="skills-item">
-              <div class="title-wrapper">
+            <li class="skill-card">
+              <div class="skill-header">
+                <h5 class="h5">SQL</h5>
+                <span class="skill-level">Proficient</span>
+              </div>
+              <p class="skill-desc">Joins, CTEs, aggregations, subqueries, and reporting queries.</p>
+            </li>
+            <li class="skill-card">
+              <div class="skill-header">
+                <h5 class="h5">Data Modeling</h5>
+                <span class="skill-level">Proficient</span>
+              </div>
+              <p class="skill-desc">Star schema, snowflake schema, fact tables, dimension tables, and relationships.</p>
+            </li>
+            <li class="skill-card">
+              <div class="skill-header">
                 <h5 class="h5">Microsoft Fabric</h5>
-                <data class="skill-percent">80%</data>
+                <span class="skill-level">Intermediate</span>
               </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
+              <p class="skill-desc">Lakehouse, warehouse, data pipelines, semantic models, and analytics workflows.</p>
             </li>
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">SQL (MySQL, PostgreSQL)</h5>
-                <data class="skill-percent">85%</data>
+            <li class="skill-card">
+              <div class="skill-header">
+                <h5 class="h5">Python</h5>
+                <span class="skill-level">Intermediate</span>
               </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 85%;"></div>
-              </div>
+              <p class="skill-desc">Data cleaning, analysis, automation, Pandas, and NumPy.</p>
             </li>
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">Python (Pandas, NumPy)</h5>
-                <data class="skill-percent">75%</data>
-              </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 75%;"></div>
-              </div>
-            </li>
-
-            <li class="skills-item">
-              <div class="title-wrapper">
+            <li class="skill-card">
+              <div class="skill-header">
                 <h5 class="h5">Azure Data Factory</h5>
-                <data class="skill-percent">75%</data>
+                <span class="skill-level">Intermediate</span>
               </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 75%;"></div>
-              </div>
+              <p class="skill-desc">ETL pipelines, linked services, datasets, triggers, and data movement workflows.</p>
             </li>
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">Data Modeling (Star & snowflake Schema)</h5>
-                <data class="skill-percent">90%</data>
-              </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-            </li>
-
-            <li class="skills-item">
-              <div class="title-wrapper">
+            <li class="skill-card">
+              <div class="skill-header">
                 <h5 class="h5">Excel & Formulas</h5>
-                <data class="skill-percent">80%</data>
+                <span class="skill-level">Proficient</span>
               </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
+              <p class="skill-desc">Lookups, pivot tables, formulas, data cleaning, and reporting support.</p>
             </li>
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">Data Visualization</h5>
-                <data class="skill-percent">88%</data>
-              </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 88%;"></div>
-              </div>
-            </li>
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">BigQuery & SQL Server</h5>
-                <data class="skill-percent">75%</data>
-              </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-            </li>
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">Tableau</h5>
-                <data class="skill-percent">70%</data>
-              </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-            </li>
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">ETL (extract, transform, load)</h5>
-                <data class="skill-percent">80%</data>
-              </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
-              </div>
-            </li>
-
-      
-        </ul>
+          </ul>
 
 
 
-        <a href="./resume.pdf" download="Tushar_Kshirsagar_Resume" class="download-link">
-          <button class="form-btn" type="submit" data-form-btn>
-            <ion-icon name="arrow-down"></ion-icon>
-            <span>Download Resume</span>
-          </button>
-        </a>
 
-        <section>
+
+          <section>
 
 
 
-        </section>
+          </section>
 
 
       </article>
@@ -1150,671 +870,639 @@
 
 
       <!-- PORTFOLIO SECTION - REDESIGNED -->
-<article class="portfolio" data-page="portfolio">
-  <header>
-    <h2 class="h2 article-title">Project</h2>
-  </header>
+      <article class="portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title">Project</h2>
+        </header>
 
-  <section class="projects">
-    <!-- Filter buttons remain the same -->
-    <ul class="filter-list">
-      <li class="filter-item">
-        <button class="active" data-filter-btn>All</button>
-      </li>
-      <li class="filter-item">
-        <button data-filter-btn>Power BI</button>
-      </li>
-      <li class="filter-item">
-        <button data-filter-btn>Tableau</button>
-      </li>
-      <li class="filter-item">
-        <button data-filter-btn>Excel</button>
-      </li>
-      <li class="filter-item">
-        <button data-filter-btn>Looker Studio</button>
-      </li>
-      <li class="filter-item">
-        <button data-filter-btn>Python</button>
-      </li>
-      <li class="filter-item">
-        <button data-filter-btn>SQL</button>
-      </li>
-    </ul>
+        <section class="projects">
+          <!-- Filter buttons remain the same -->
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Power BI</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Tableau</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Excel</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Looker Studio</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Python</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>SQL</button>
+            </li>
+          </ul>
 
-    <!-- Mobile filter dropdown remains the same -->
-    <div class="filter-select-box">
-      <button class="filter-select" data-select>
-        <div class="select-value" data-selecct-value>Select category</div>
-        <div class="select-icon">
-          <ion-icon name="chevron-down"></ion-icon>
-        </div>
-      </button>
-      <ul class="select-list">
-        <li class="select-item">
-          <button data-select-item>All</button>
-        </li>
-        <li class="select-item">
-          <button data-select-item>Power BI</button>
-        </li>
-        <li class="select-item">
-          <button data-select-item>Tableau</button>
-        </li>
-        <li class="select-item">
-          <button data-select-item>Excel</button>
-        </li>
-        <li class="select-item">
-          <button data-select-item>Looker Studio</button>
-        </li>
-        <li class="select-item">
-          <button data-select-item>Python</button>
-        </li>
-        <li class="select-item">
-          <button data-select-item>SQL</button>
-        </li>
+          <!-- Mobile filter dropdown remains the same -->
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Power BI</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Tableau</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Excel</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Looker Studio</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Python</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>SQL</button>
+              </li>
 
-      </ul>
-    </div>
-
-    <!-- REDESIGNED PROJECT GALLERY GRID -->
-        <ul class="project-gallery">
-
-      <!-- Project Card 1 - Sales Performance Analytics Dashboard -->
-      <li class="project-card active" data-filter-item data-category="power bi" data-project-id="1">
-        <div class="project-card-inner">
-          <!-- Tool Icon Badge -->
-          <div class="tool-badge">
-            <img src="./assets-2/Power bi logo.png" alt="Power BI" title="Power BI">
+            </ul>
           </div>
 
-          <!-- Project Preview Image -->
-          <figure class="project-preview">
-            <img src="./assets-2/New Asset/store sale cover.jpg" alt="Sales Performance Analytics Dashboard" loading="lazy">
-          </figure>
+          <!-- REDESIGNED PROJECT GALLERY GRID -->
+          <ul class="project-gallery">
 
-          <!-- Project Info -->
-          <div class="project-info">
-            <h3 class="project-title">Sales Performance Analytics Dashboard 📊</h3>
-            <p class="project-industry">Business Intelligence</p>
+            <!-- Project Card 1 - Retail Analytics Suite -->
+            <li class="project-card active" data-filter-item data-category="power bi" data-project-id="1">
+              <div class="project-card-inner">
+                <!-- Tool Icon Badge -->
+                <div class="tool-badge">
+                  <img src="./assets-2/power-bi-logo.png" alt="Power BI" title="Power BI">
+                </div>
 
-            <!-- CTA Button -->
-            <button class="see-work-btn" data-project-btn>
-              <span>See My Work</span>
-              <ion-icon name="arrow-forward-outline"></ion-icon>
+                <!-- Project Preview Image -->
+                <figure class="project-preview">
+                  <img src="./assets-2/new-asset/store sale cover.jpg" alt="Retail Analytics Suite" loading="lazy">
+                </figure>
+
+                <!-- Project Info -->
+                <div class="project-info">
+                  <h3 class="project-title">Retail Analytics Suite</h3>
+                  <p class="project-industry">Business Intelligence</p>
+
+                  <!-- CTA Button -->
+                  <button class="see-work-btn" data-project-btn>
+                    <span>See My Work</span>
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                  </button>
+                </div>
+              </div>
+            </li>
+
+
+            <li class="project-card active" data-filter-item data-category="power bi" data-project-id="18">
+              <div class="project-card-inner">
+                <div class="tool-badge">
+                  <img src="./assets-2/power-bi-logo.png" alt="Power BI" title="Power BI">
+                </div>
+                <figure class="project-preview">
+                  <img src="./assets-2/new-asset/blinkit cover.jpg"
+                    alt="Quick Commerce Performance & Growth Multi-Domain Analyzer (Blinkit)" loading="lazy">
+                </figure>
+                <div class="project-info">
+                  <h3 class="project-title">Quick Commerce Performance & Growth Multi-Domain Analyzer (Blinkit) 🚀</h3>
+                  <p class="project-industry">Retail / E-Commerce Operations</p>
+                  <button class="see-work-btn" data-project-btn>
+                    <span>See My Work</span>
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                  </button>
+                </div>
+              </div>
+            </li>
+
+
+
+            <!-- Project 2 - Blinkit Sales Analytics Dashboard -->
+
+            <!-- Project Card 2 - Blinkit Sales Analytics Dashboard -->
+            <li class="project-card active" data-filter-item data-category="excel" data-project-id="2">
+              <div class="project-card-inner">
+                <!-- Tool Icon Badge -->
+                <div class="tool-badge">
+                  <img src="./assets-2/excel.png" alt="Excel" title="Microsoft Excel">
+                </div>
+
+                <!-- Project Preview Image -->
+                <figure class="project-preview">
+                  <img src="./assets-2/new-asset/Blnink it intro.png" alt="Blinkit Sales Analytics Dashboard"
+                    loading="lazy">
+                </figure>
+
+                <!-- Project Info -->
+                <div class="project-info">
+                  <h3 class="project-title">Blinkit Sales Analytics Dashboard 🛒</h3>
+                  <p class="project-industry">Quick Commerce</p>
+
+                  <!-- CTA Button -->
+                  <button class="see-work-btn" data-project-btn>
+                    <span>See My Work</span>
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                  </button>
+                </div>
+              </div>
+            </li>
+
+            <!-- Project Card 7 - Amazon E-commerce Analytics Dashboard -->
+            <li class="project-card active" data-filter-item data-category="power bi" data-project-id="7">
+              <div class="project-card-inner">
+                <div class="tool-badge">
+                  <img src="./assets-2/power-bi-logo.png" alt="Power BI" title="Power BI">
+                </div>
+                <figure class="project-preview">
+                  <img src="./assets-2/new-asset/Amazon cover.png" alt="Amazon E-commerce Analytics Dashboard"
+                    loading="lazy">
+                </figure>
+                <div class="project-info">
+                  <h3 class="project-title">Amazon E-commerce Analytics Dashboard 📦</h3>
+                  <p class="project-industry">E-commerce</p>
+                  <button class="see-work-btn" data-project-btn>
+                    <span>See My Work</span>
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                  </button>
+                </div>
+              </div>
+            </li>
+
+            <!-- Project 4 - Google Trends Analysis Dashboard -->
+
+            <!-- Project Card 4 - Google Trends Analysis Dashboard -->
+            <li class="project-card active" data-filter-item data-category="power bi" data-project-id="4">
+              <div class="project-card-inner">
+                <!-- Tool Icon Badge -->
+                <div class="tool-badge">
+                  <img src="./assets-2/power-bi-logo.png" alt="Power BI" title="Power BI">
+                </div>
+
+                <!-- Project Preview Image -->
+                <figure class="project-preview">
+                  <img src="./assets-2/new-asset/Google trend cover.jpeg" alt="Google Trends Analysis Dashboard"
+                    loading="lazy">
+                </figure>
+
+                <!-- Project Info -->
+                <div class="project-info">
+                  <h3 class="project-title">Google Trends Analysis Dashboard 📈</h3>
+                  <p class="project-industry">Market Intelligence</p>
+
+                  <!-- CTA Button -->
+                  <button class="see-work-btn" data-project-btn>
+                    <span>See My Work</span>
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                  </button>
+                </div>
+              </div>
+            </li>
+
+            <!-- Project Card 15 - Netflix Content Analysis Dashboard -->
+            <li class="project-card active" data-filter-item data-category="power bi" data-project-id="15">
+              <div class="project-card-inner">
+                <div class="tool-badge">
+                  <img src="./assets-2/power-bi-logo.png" alt="Power BI" title="Power BI">
+                </div>
+                <figure class="project-preview">
+                  <img src="./assets-2/new-asset/netflix cover.jpeg" alt="Netflix Content Analysis Dashboard"
+                    loading="lazy">
+                </figure>
+                <div class="project-info">
+                  <h3 class="project-title">Netflix Content Analysis Dashboard 🎬</h3>
+                  <p class="project-industry">Entertainment Analytics</p>
+                  <button class="see-work-btn" data-project-btn>
+                    <span>See My Work</span>
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                  </button>
+                </div>
+              </div>
+            </li>
+
+
+            <!-- Project 5 - Diversity & Inclusion Dashboard -->
+
+            <!-- Project Card 5 - Diversity & Inclusion Dashboard -->
+            <li class="project-card active" data-filter-item data-category="power bi" data-project-id="5">
+              <div class="project-card-inner">
+                <!-- Tool Icon Badge -->
+                <div class="tool-badge">
+                  <img src="./assets-2/power-bi-logo.png" alt="Power BI" title="Power BI">
+                </div>
+
+                <!-- Project Preview Image -->
+                <figure class="project-preview">
+                  <img src="./assets-2/new-asset/Diversity Cover.jpeg" alt="Diversity & Inclusion Dashboard"
+                    loading="lazy">
+                </figure>
+
+                <!-- Project Info -->
+                <div class="project-info">
+                  <h3 class="project-title">Diversity & Inclusion Dashboard 🌍</h3>
+                  <p class="project-industry">HR Analytics</p>
+
+                  <!-- CTA Button -->
+                  <button class="see-work-btn" data-project-btn>
+                    <span>See My Work</span>
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                  </button>
+                </div>
+              </div>
+            </li>
+
+
+            <!-- Project Card 6 - Pizza Sales Analysis Dashboard -->
+            <li class="project-card active" data-filter-item data-category="power bi" data-project-id="6">
+              <div class="project-card-inner">
+                <div class="tool-badge">
+                  <img src="./assets-2/power-bi-logo.png" alt="Power BI" title="Power BI">
+                </div>
+                <figure class="project-preview">
+                  <img src="./assets-2/new-asset/Pizza cover.jpeg" alt="Pizza Sales Analysis Dashboard" loading="lazy">
+                </figure>
+                <div class="project-info">
+                  <h3 class="project-title">Pizza Sales Analysis Dashboard 🍕</h3>
+                  <p class="project-industry">Food & Beverage</p>
+                  <button class="see-work-btn" data-project-btn>
+                    <span>See My Work</span>
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                  </button>
+                </div>
+              </div>
+            </li>
+
+
+
+            <!-- Project 3 - Interactive Business Intelligence Dashboard -->
+
+            <!-- Project Card 3 - Interactive Business Intelligence Dashboard -->
+            <li class="project-card active" data-filter-item data-category="excel" data-project-id="3">
+              <div class="project-card-inner">
+                <!-- Tool Icon Badge -->
+                <div class="tool-badge">
+                  <img src="./assets-2/excel.png" alt="Excel" title="Microsoft Excel">
+                </div>
+
+                <!-- Project Preview Image -->
+                <figure class="project-preview">
+                  <img src="./assets-2/new-asset/IBI excel cover.png" alt="Interactive Business Intelligence Dashboard"
+                    loading="lazy">
+                </figure>
+
+                <!-- Project Info -->
+                <div class="project-info">
+                  <h3 class="project-title">Interactive Business Intelligence Dashboard 📈</h3>
+                  <p class="project-industry">Business Intelligence</p>
+
+                  <!-- CTA Button -->
+                  <button class="see-work-btn" data-project-btn>
+                    <span>See My Work</span>
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                  </button>
+                </div>
+              </div>
+            </li>
+
+            <!-- Project Card 8 - Climate Change Monitoring Dashboard -->
+            <li class="project-card active" data-filter-item data-category="tableau" data-project-id="8">
+              <div class="project-card-inner">
+                <div class="tool-badge">
+                  <img src="./assets-2/Tableau-Symbol.png" alt="Tableau" title="Tableau">
+                </div>
+                <figure class="project-preview">
+                  <img src="./assets-2/new-asset/Climate cover.jpg" alt="Climate Change Monitoring Dashboard"
+                    loading="lazy">
+                </figure>
+                <div class="project-info">
+                  <h3 class="project-title">Climate Change Monitoring Dashboard 🌍</h3>
+                  <p class="project-industry">Environmental</p>
+                  <button class="see-work-btn" data-project-btn>
+                    <span>See My Work</span>
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                  </button>
+                </div>
+              </div>
+            </li>
+
+            <!-- Project Card 11 - IPL Performance Analytics Dashboard -->
+            <li class="project-card active" data-filter-item data-category="power bi" data-project-id="11">
+              <div class="project-card-inner">
+                <div class="tool-badge">
+                  <img src="./assets-2/power-bi-logo.png" alt="Power BI" title="Power BI">
+                </div>
+                <figure class="project-preview">
+                  <img src="./assets-2/new-asset/ipl cover.jpeg" alt="IPL Performance Analytics Dashboard"
+                    loading="lazy">
+                </figure>
+                <div class="project-info">
+                  <h3 class="project-title">IPL Performance Analytics Dashboard 🏏</h3>
+                  <p class="project-industry">Sports Analytics</p>
+                  <button class="see-work-btn" data-project-btn>
+                    <span>See My Work</span>
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                  </button>
+                </div>
+              </div>
+            </li>
+
+
+            <!-- Project Card 10 - AdventureWorks Sales & Returns Dashboard -->
+            <li class="project-card active" data-filter-item data-category="power bi" data-project-id="10">
+              <div class="project-card-inner">
+                <div class="tool-badge">
+                  <img src="./assets-2/power-bi-logo.png" alt="Power BI" title="Power BI">
+                </div>
+                <figure class="project-preview">
+                  <img src="./assets-2/new-asset/Avd Cover.png" alt="AdventureWorks Sales & Returns Dashboard"
+                    loading="lazy">
+                </figure>
+                <div class="project-info">
+                  <h3 class="project-title">AdventureWorks Sales & Returns Dashboard 🚴</h3>
+                  <p class="project-industry">Retail Analytics</p>
+                  <button class="see-work-btn" data-project-btn>
+                    <span>See My Work</span>
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                  </button>
+                </div>
+              </div>
+            </li>
+
+
+            <!-- Project Card 9 - Live Weather & Air Quality Dashboard -->
+            <li class="project-card active" data-filter-item data-category="power bi" data-project-id="9">
+              <div class="project-card-inner">
+                <div class="tool-badge">
+                  <img src="./assets-2/power-bi-logo.png" alt="Power BI" title="Power BI">
+                </div>
+                <figure class="project-preview">
+                  <img src="./assets-2/new-asset/weather cover.jpeg" alt="Live Weather & Air Quality Dashboard"
+                    loading="lazy">
+                </figure>
+                <div class="project-info">
+                  <h3 class="project-title">Live Weather & Air Quality Dashboard 🌦️</h3>
+                  <p class="project-industry">Real-time Analytics</p>
+                  <button class="see-work-btn" data-project-btn>
+                    <span>See My Work</span>
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                  </button>
+                </div>
+              </div>
+            </li>
+
+
+
+            <!-- Project Cards 11-17 -->
+
+
+
+            <!-- Project Card 12 - E-commerce Analytics with Looker Studio -->
+            <li class="project-card active" data-filter-item data-category="looker studio" data-project-id="12">
+              <div class="project-card-inner">
+                <div class="tool-badge">
+                  <img src="./assets-2/lookerstudio.jpg" alt="Looker Studio" title="Looker Studio">
+                </div>
+                <figure class="project-preview">
+                  <img src="./assets-2/new-asset/looker cover.png" alt="E-commerce Analytics with Looker Studio"
+                    loading="lazy">
+                </figure>
+                <div class="project-info">
+                  <h3 class="project-title">E-commerce Analytics with Looker Studio 📈</h3>
+                  <p class="project-industry">Cloud Analytics</p>
+                  <button class="see-work-btn" data-project-btn>
+                    <span>See My Work</span>
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                  </button>
+                </div>
+              </div>
+            </li>
+
+            <!-- Project Card 13 - Power BI Finance Dashboard -->
+            <li class="project-card active" data-filter-item data-category="power bi" data-project-id="13">
+              <div class="project-card-inner">
+                <div class="tool-badge">
+                  <img src="./assets-2/power-bi-logo.png" alt="Power BI" title="Power BI">
+                </div>
+
+                <figure class="project-preview">
+                  <img src="./assets-2/new-asset/finance cover.png" alt="Power BI Finance Dashboard" loading="lazy">
+                </figure>
+                <div class="project-info">
+                  <h3 class="project-title">Power BI Finance Dashboard 💰</h3>
+                  <p class="project-industry">Financial Analytics</p>
+                  <button class="see-work-btn" data-project-btn>
+                    <span>See My Work</span>
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                  </button>
+                </div>
+              </div>
+            </li>
+
+            <!-- Project Card 14 - Store Sales Data Analysis Dashboard -->
+            <li class="project-card active" data-filter-item data-category="power bi" data-project-id="14">
+              <div class="project-card-inner">
+                <div class="tool-badge">
+                  <img src="./assets-2/power-bi-logo.png" alt="Power BI" title="Power BI">
+                </div>
+                <figure class="project-preview">
+                  <img src="./assets-2/new-asset/store cover.png" alt="Store Sales Data Analysis Dashboard"
+                    loading="lazy">
+                </figure>
+                <div class="project-info">
+                  <h3 class="project-title">Store Sales Data Analysis Dashboard 🏪</h3>
+                  <p class="project-industry">Retail Analytics</p>
+                  <button class="see-work-btn" data-project-btn>
+                    <span>See My Work</span>
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                  </button>
+                </div>
+              </div>
+            </li>
+
+
+
+            <!-- Project Card 16 - Pizza Sales SQL Analysis -->
+            <li class="project-card active" data-filter-item data-category="sql" data-project-id="16">
+              <div class="project-card-inner">
+                <div class="tool-badge">
+                  <img src="./assets-2/mysql.png" alt="SQL" title="SQL Server">
+                </div>
+                <figure class="project-preview">
+                  <img src="./assets-2/new-asset/Pizza sql cover.jpg" alt="Pizza Sales SQL Analysis" loading="lazy">
+                </figure>
+                <div class="project-info">
+                  <h3 class="project-title">Pizza Sales SQL Analysis 🍕</h3>
+                  <p class="project-industry">SQL Analytics</p>
+                  <button class="see-work-btn" data-project-btn>
+                    <span>See My Work</span>
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                  </button>
+                </div>
+              </div>
+            </li>
+
+            <!-- Project Card 17 - Store Sales Python Analysis -->
+            <li class="project-card active" data-filter-item data-category="python" data-project-id="17">
+              <div class="project-card-inner">
+                <div class="tool-badge">
+                  <img src="./assets-2/python.png" alt="Python" title="Python">
+                </div>
+                <figure class="project-preview">
+                  <img src="./assets-2/new-asset/Store sale cover python.jpg" alt="Store Sales Python Analysis"
+                    loading="lazy">
+                </figure>
+                <div class="project-info">
+                  <h3 class="project-title">Store Sales Python Analysis 📊</h3>
+                  <p class="project-industry">Python Analytics</p>
+                  <button class="see-work-btn" data-project-btn>
+                    <span>See My Work</span>
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                  </button>
+                </div>
+              </div>
+            </li>
+
+            <!-- Add remaining 7 projects following the same structure -->
+
+          </ul>
+
+          <div class="view-all-btn-container">
+            <button class="form-btn" id="viewAllBtn">
+              <span>View All Projects</span>
+              <ion-icon name="chevron-down-outline"></ion-icon>
             </button>
           </div>
-        </div>
-      </li>
 
-
-      <li class="project-card active" data-filter-item data-category="power bi" data-project-id="18">
-    <div class="project-card-inner">
-        <div class="tool-badge">
-            <img src="./assets-2/Power bi logo.png" alt="Power BI" title="Power BI">
-        </div>
-        <figure class="project-preview">
-            <img src="./assets-2/New Asset/blinkit cover.jpg" alt="Quick Commerce Performance & Growth Multi-Domain Analyzer (Blinkit)" loading="lazy">
-            </figure>
-        <div class="project-info">
-            <h3 class="project-title">Quick Commerce Performance & Growth Multi-Domain Analyzer (Blinkit) 🚀</h3>
-            <p class="project-industry">Retail / E-Commerce Operations</p>
-            <button class="see-work-btn" data-project-btn>
-                <span>See My Work</span>
-                <ion-icon name="arrow-forward-outline"></ion-icon>
-            </button>
-        </div>
-    </div>
-</li>
-
-
-
-<!-- Project 2 - Blinkit Sales Analytics Dashboard -->
-
-      <!-- Project Card 2 - Blinkit Sales Analytics Dashboard -->
-      <li class="project-card active" data-filter-item data-category="excel" data-project-id="2">
-        <div class="project-card-inner">
-          <!-- Tool Icon Badge -->
-          <div class="tool-badge">
-            <img src="./assets-2/excel.png" alt="Excel" title="Microsoft Excel">
-          </div>
-
-          <!-- Project Preview Image -->
-          <figure class="project-preview">
-            <img src="./assets-2/New Asset/Blnink it intro.png" alt="Blinkit Sales Analytics Dashboard" loading="lazy">
-          </figure>
-
-          <!-- Project Info -->
-          <div class="project-info">
-            <h3 class="project-title">Blinkit Sales Analytics Dashboard 🛒</h3>
-            <p class="project-industry">Quick Commerce</p>
-
-            <!-- CTA Button -->
-            <button class="see-work-btn" data-project-btn>
-              <span>See My Work</span>
-              <ion-icon name="arrow-forward-outline"></ion-icon>
-            </button>
-          </div>
-        </div>
-      </li>
-
-      <!-- Project Card 7 - Amazon E-commerce Analytics Dashboard -->
-      <li class="project-card active" data-filter-item data-category="power bi" data-project-id="7">
-        <div class="project-card-inner">
-          <div class="tool-badge">
-            <img src="./assets-2/Power bi logo.png" alt="Power BI" title="Power BI">
-          </div>
-          <figure class="project-preview">
-            <img src="./assets-2/New Asset/Amazon cover.png" alt="Amazon E-commerce Analytics Dashboard" loading="lazy">
-          </figure>
-          <div class="project-info">
-            <h3 class="project-title">Amazon E-commerce Analytics Dashboard 📦</h3>
-            <p class="project-industry">E-commerce</p>
-            <button class="see-work-btn" data-project-btn>
-              <span>See My Work</span>
-              <ion-icon name="arrow-forward-outline"></ion-icon>
-            </button>
-          </div>
-        </div>
-      </li>   
-
-<!-- Project 4 - Google Trends Analysis Dashboard -->      
-
-      <!-- Project Card 4 - Google Trends Analysis Dashboard -->
-      <li class="project-card active" data-filter-item data-category="power bi" data-project-id="4">
-        <div class="project-card-inner">
-          <!-- Tool Icon Badge -->
-          <div class="tool-badge">
-            <img src="./assets-2/Power bi logo.png" alt="Power BI" title="Power BI">
-          </div>
-
-          <!-- Project Preview Image -->
-          <figure class="project-preview">
-            <img src="./assets-2/New Asset/Google trend cover.jpeg" alt="Google Trends Analysis Dashboard" loading="lazy">
-          </figure>
-
-          <!-- Project Info -->
-          <div class="project-info">
-            <h3 class="project-title">Google Trends Analysis Dashboard 📈</h3>
-            <p class="project-industry">Market Intelligence</p>
-
-            <!-- CTA Button -->
-            <button class="see-work-btn" data-project-btn>
-              <span>See My Work</span>
-              <ion-icon name="arrow-forward-outline"></ion-icon>
-            </button>
-          </div>
-        </div>
-      </li>
-
-      <!-- Project Card 15 - Netflix Content Analysis Dashboard -->
-          <li class="project-card active" data-filter-item data-category="power bi" data-project-id="15">
-          <div class="project-card-inner">
-          <div class="tool-badge">
-            <img src="./assets-2/Power bi logo.png" alt="Power BI" title="Power BI">
-          </div>
-          <figure class="project-preview">
-            <img src="./assets-2/New Asset/netflix cover.jpeg" alt="Netflix Content Analysis Dashboard" loading="lazy">
-          </figure>
-          <div class="project-info">
-            <h3 class="project-title">Netflix Content Analysis Dashboard 🎬</h3>
-            <p class="project-industry">Entertainment Analytics</p>
-            <button class="see-work-btn" data-project-btn>
-              <span>See My Work</span>
-              <ion-icon name="arrow-forward-outline"></ion-icon>
-            </button>
-          </div>
-          </div>
-          </li>
-
-
-<!-- Project 5 - Diversity & Inclusion Dashboard -->
-
-      <!-- Project Card 5 - Diversity & Inclusion Dashboard -->
-      <li class="project-card active" data-filter-item data-category="power bi" data-project-id="5">
-        <div class="project-card-inner">
-          <!-- Tool Icon Badge -->
-          <div class="tool-badge">
-            <img src="./assets-2/Power bi logo.png" alt="Power BI" title="Power BI">
-          </div>
-
-          <!-- Project Preview Image -->
-          <figure class="project-preview">
-            <img src="./assets-2/New Asset/Diversity Cover.jpeg" alt="Diversity & Inclusion Dashboard" loading="lazy">
-          </figure>
-
-          <!-- Project Info -->
-          <div class="project-info">
-            <h3 class="project-title">Diversity & Inclusion Dashboard 🌍</h3>
-            <p class="project-industry">HR Analytics</p>
-
-            <!-- CTA Button -->
-            <button class="see-work-btn" data-project-btn>
-              <span>See My Work</span>
-              <ion-icon name="arrow-forward-outline"></ion-icon>
-            </button>
-          </div>
-        </div>
-      </li>
-
-
-      <!-- Project Card 6 - Pizza Sales Analysis Dashboard -->
-      <li class="project-card active" data-filter-item data-category="power bi" data-project-id="6">
-        <div class="project-card-inner">
-          <div class="tool-badge">
-            <img src="./assets-2/Power bi logo.png" alt="Power BI" title="Power BI">
-          </div>
-          <figure class="project-preview">
-            <img src="./assets-2/New Asset/Pizza cover.jpeg" alt="Pizza Sales Analysis Dashboard" loading="lazy">
-          </figure>
-          <div class="project-info">
-            <h3 class="project-title">Pizza Sales Analysis Dashboard 🍕</h3>
-            <p class="project-industry">Food & Beverage</p>
-            <button class="see-work-btn" data-project-btn>
-              <span>See My Work</span>
-              <ion-icon name="arrow-forward-outline"></ion-icon>
-            </button>
-          </div>
-        </div>
-      </li>
-
-      
-
-      <!-- Project 3 - Interactive Business Intelligence Dashboard -->
-
-      <!-- Project Card 3 - Interactive Business Intelligence Dashboard -->
-      <li class="project-card active" data-filter-item data-category="excel" data-project-id="3">
-        <div class="project-card-inner">
-          <!-- Tool Icon Badge -->
-          <div class="tool-badge">
-            <img src="./assets-2/excel.png" alt="Excel" title="Microsoft Excel">
-          </div>
-
-          <!-- Project Preview Image -->
-          <figure class="project-preview">
-            <img src="./assets-2/New Asset/IBI excel cover.png" alt="Interactive Business Intelligence Dashboard" loading="lazy">
-          </figure>
-
-          <!-- Project Info -->
-          <div class="project-info">
-            <h3 class="project-title">Interactive Business Intelligence Dashboard 📈</h3>
-            <p class="project-industry">Business Intelligence</p>
-
-            <!-- CTA Button -->
-            <button class="see-work-btn" data-project-btn>
-              <span>See My Work</span>
-              <ion-icon name="arrow-forward-outline"></ion-icon>
-            </button>
-          </div>
-        </div>
-      </li>
-
-      <!-- Project Card 8 - Climate Change Monitoring Dashboard -->
-      <li class="project-card active" data-filter-item data-category="tableau" data-project-id="8">
-        <div class="project-card-inner">
-          <div class="tool-badge">
-            <img src="./assets-2/Tableau-Symbol.png" alt="Tableau" title="Tableau">
-          </div>
-          <figure class="project-preview">
-            <img src="./assets-2/New Asset/Climate cover.jpg" alt="Climate Change Monitoring Dashboard" loading="lazy">
-          </figure>
-          <div class="project-info">
-            <h3 class="project-title">Climate Change Monitoring Dashboard 🌍</h3>
-            <p class="project-industry">Environmental</p>
-            <button class="see-work-btn" data-project-btn>
-              <span>See My Work</span>
-              <ion-icon name="arrow-forward-outline"></ion-icon>
-            </button>
-          </div>
-        </div>
-      </li>
-
-      <!-- Project Card 11 - IPL Performance Analytics Dashboard -->
-      <li class="project-card active" data-filter-item data-category="power bi" data-project-id="11">
-        <div class="project-card-inner">
-          <div class="tool-badge">
-            <img src="./assets-2/Power bi logo.png" alt="Power BI" title="Power BI">
-          </div>
-          <figure class="project-preview">
-            <img src="./assets-2/New Asset/ipl cover.jpeg" alt="IPL Performance Analytics Dashboard" loading="lazy">
-          </figure>
-          <div class="project-info">
-            <h3 class="project-title">IPL Performance Analytics Dashboard 🏏</h3>
-            <p class="project-industry">Sports Analytics</p>
-            <button class="see-work-btn" data-project-btn>
-              <span>See My Work</span>
-              <ion-icon name="arrow-forward-outline"></ion-icon>
-            </button>
-          </div>
-        </div>
-      </li>
-
-
-      <!-- Project Card 10 - AdventureWorks Sales & Returns Dashboard -->
-      <li class="project-card active" data-filter-item data-category="power bi" data-project-id="10">
-        <div class="project-card-inner">
-          <div class="tool-badge">
-            <img src="./assets-2/Power bi logo.png" alt="Power BI" title="Power BI">
-          </div>
-          <figure class="project-preview">
-            <img src="./assets-2/New Asset/Avd Cover.png" alt="AdventureWorks Sales & Returns Dashboard" loading="lazy">
-          </figure>
-          <div class="project-info">
-            <h3 class="project-title">AdventureWorks Sales & Returns Dashboard 🚴</h3>
-            <p class="project-industry">Retail Analytics</p>
-            <button class="see-work-btn" data-project-btn>
-              <span>See My Work</span>
-              <ion-icon name="arrow-forward-outline"></ion-icon>
-            </button>
-          </div>
-        </div>
-      </li>
-
-
-      <!-- Project Card 9 - Live Weather & Air Quality Dashboard -->
-      <li class="project-card active" data-filter-item data-category="power bi" data-project-id="9">
-        <div class="project-card-inner">
-          <div class="tool-badge">
-            <img src="./assets-2/Power bi logo.png" alt="Power BI" title="Power BI">
-          </div>
-          <figure class="project-preview">
-            <img src="./assets-2/New Asset/weather cover.jpeg" alt="Live Weather & Air Quality Dashboard" loading="lazy">
-          </figure>
-          <div class="project-info">
-            <h3 class="project-title">Live Weather & Air Quality Dashboard 🌦️</h3>
-            <p class="project-industry">Real-time Analytics</p>
-            <button class="see-work-btn" data-project-btn>
-              <span>See My Work</span>
-              <ion-icon name="arrow-forward-outline"></ion-icon>
-            </button>
-          </div>
-        </div>
-      </li>
-
-
-
-      <!-- Project Cards 11-17 -->
-
-      
-
-      <!-- Project Card 12 - E-commerce Analytics with Looker Studio -->
-      <li class="project-card active" data-filter-item data-category="looker studio" data-project-id="12">
-        <div class="project-card-inner">
-          <div class="tool-badge">
-            <img src="./assets-2/lookerstudio.jpg" alt="Looker Studio" title="Looker Studio">
-          </div>
-          <figure class="project-preview">
-            <img src="./assets-2/New Asset/looker cover.png" alt="E-commerce Analytics with Looker Studio" loading="lazy">
-          </figure>
-          <div class="project-info">
-            <h3 class="project-title">E-commerce Analytics with Looker Studio 📈</h3>
-            <p class="project-industry">Cloud Analytics</p>
-            <button class="see-work-btn" data-project-btn>
-              <span>See My Work</span>
-              <ion-icon name="arrow-forward-outline"></ion-icon>
-            </button>
-          </div>
-        </div>
-      </li>
-
-      <!-- Project Card 13 - Power BI Finance Dashboard -->
-      <li class="project-card active" data-filter-item data-category="power bi" data-project-id="13">
-        <div class="project-card-inner">
-          <div class="tool-badge">
-            <img src="./assets-2/Power bi logo.png" alt="Power BI" title="Power BI">
-          </div>
-
-          <figure class="project-preview">
-            <img src="./assets-2/New Asset/finance cover.png" alt="Power BI Finance Dashboard" loading="lazy">
-          </figure>
-          <div class="project-info">
-            <h3 class="project-title">Power BI Finance Dashboard 💰</h3>
-            <p class="project-industry">Financial Analytics</p>
-            <button class="see-work-btn" data-project-btn>
-              <span>See My Work</span>
-              <ion-icon name="arrow-forward-outline"></ion-icon>
-            </button>
-          </div>
-          </div>
-          </li>
-
-          <!-- Project Card 14 - Store Sales Data Analysis Dashboard -->
-          <li class="project-card active" data-filter-item data-category="power bi" data-project-id="14">
-          <div class="project-card-inner">
-          <div class="tool-badge">
-            <img src="./assets-2/Power bi logo.png" alt="Power BI" title="Power BI">
-          </div>
-          <figure class="project-preview">
-            <img src="./assets-2/New Asset/store cover.png" alt="Store Sales Data Analysis Dashboard" loading="lazy">
-          </figure>
-          <div class="project-info">
-            <h3 class="project-title">Store Sales Data Analysis Dashboard 🏪</h3>
-            <p class="project-industry">Retail Analytics</p>
-            <button class="see-work-btn" data-project-btn>
-              <span>See My Work</span>
-              <ion-icon name="arrow-forward-outline"></ion-icon>
-            </button>
-          </div>
-          </div>
-          </li>
-
-          
-
-          <!-- Project Card 16 - Pizza Sales SQL Analysis -->
-          <li class="project-card active" data-filter-item data-category="sql" data-project-id="16">
-          <div class="project-card-inner">
-          <div class="tool-badge">
-            <img src="./assets-2/mysql.png" alt="SQL" title="SQL Server">
-          </div>
-          <figure class="project-preview">
-            <img src="./assets-2/New Asset/Pizza sql cover.jpg" alt="Pizza Sales SQL Analysis" loading="lazy">
-          </figure>
-          <div class="project-info">
-            <h3 class="project-title">Pizza Sales SQL Analysis 🍕</h3>
-            <p class="project-industry">SQL Analytics</p>
-            <button class="see-work-btn" data-project-btn>
-              <span>See My Work</span>
-              <ion-icon name="arrow-forward-outline"></ion-icon>
-            </button>
-          </div>
-          </div>
-          </li>
-
-          <!-- Project Card 17 - Store Sales Python Analysis -->
-          <li class="project-card active" data-filter-item data-category="python" data-project-id="17">
-          <div class="project-card-inner">
-          <div class="tool-badge">
-            <img src="./assets-2/python.png" alt="Python" title="Python">
-          </div>
-          <figure class="project-preview">
-            <img src="./assets-2/New Asset/Store sale cover python.jpg" alt="Store Sales Python Analysis" loading="lazy">
-          </figure>
-          <div class="project-info">
-            <h3 class="project-title">Store Sales Python Analysis 📊</h3>
-            <p class="project-industry">Python Analytics</p>
-            <button class="see-work-btn" data-project-btn>
-              <span>See My Work</span>
-              <ion-icon name="arrow-forward-outline"></ion-icon>
-            </button>
-          </div>
-          </div>
-          </li>
-
-      <!-- Add remaining 7 projects following the same structure -->
-
-    </ul>
-
-    <div class="view-all-btn-container">
-    <button class="form-btn" id="viewAllBtn">
-      <span>View All Projects</span>
-      <ion-icon name="chevron-down-outline"></ion-icon>
-    </button>
-  </div>
-
-  </section>
-</article>
-
+        </section>
+      </article>
 
       <!--
           - PROJECT MODEL POPUP
       -->
-
-
       <!-- PROJECT MODAL POPUP - NEW DETAILED VIEW -->
-<div class="project-modal-overlay" id="projectModal" data-project-modal>
-  <div class="project-modal-container">
+      <div class="project-modal-overlay" id="projectModal" data-project-modal>
+        <div class="project-modal-container">
 
-    <!-- 1. HEADER SECTION - Title and Close Button -->
-    <header class="project-modal-header">
-      <h2 class="project-modal-title" id="modalProjectTitle">India EV Sales Analysis 🔋</h2>
-      <button class="project-modal-close" data-modal-close>
-        <ion-icon name="close-outline"></ion-icon>
-      </button>
-    </header>
+          <!-- 1. HEADER SECTION - Title and Close Button -->
+          <header class="project-modal-header">
+            <h2 class="project-modal-title" id="modalProjectTitle">Project Title</h2>
+            <button class="project-modal-close" data-modal-close>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+          </header>
 
-    <!-- 2. MAIN SECTION - Two Column Layout -->
-    <section class="project-modal-main">
+          <!-- 2. MAIN SECTION - Two Column Layout -->
+          <section class="project-modal-main">
 
-      <!-- Left Column - Project Information -->
-      <div class="project-info-column">
-        <div class="project-meta">
-          <h3 class="project-name" id="modalProjectName">India EV Sales Analysis</h3>
-          <p class="project-category" id="modalProjectCategory">Automotive</p>
-        </div>
+            <!-- Left Column - Project Information -->
+            <div class="project-info-column">
+              <div class="project-meta">
+                <h3 class="project-name" id="modalProjectName">Project Name</h3>
+                <p class="project-category" id="modalProjectCategory">Category</p>
+              </div>
 
-        <!-- Project Summary -->
-        <div class="project-summary">
-          <h4>Project Goal</h4>
-          <p id="modalProjectSummary">
-            Comprehensive analysis of India's electric vehicle market trends, sales performance, 
-            and growth patterns across different states and manufacturers from 2022-2024.
-          </p>
-        </div>
+              <!-- Project Summary -->
+              <div class="project-summary">
+                <h4>Project Goal</h4>
+                <p id="modalProjectSummary">
+                  Project summary goes here.
+                </p>
+              </div>
 
-        <!-- LinkedIn Post Link -->
-        <div class="project-links">
-          <a href="#" class="project-link-btn linkedin-link" id="modalLinkedInLink" target="_blank">
-            <ion-icon name="logo-linkedin"></ion-icon>
-            <span>View LinkedIn Post</span>
-          </a>
-          <a href="#" class="project-link-btn github-link" id="modalGitHubLink" target="_blank">
-            <ion-icon name="logo-github"></ion-icon>
-            <span>View GitHub Repo</span>
-          </a>
-        </div>
+              <!-- LinkedIn Post Link -->
+              <div class="project-links">
+                <a href="#" class="project-link-btn linkedin-link" id="modalLinkedInLink" target="_blank">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                  <span>View LinkedIn Post</span>
+                </a>
+                <a href="#" class="project-link-btn github-link" id="modalGitHubLink" target="_blank">
+                  <ion-icon name="logo-github"></ion-icon>
+                  <span>View GitHub Repo</span>
+                </a>
+              </div>
 
+              <!-- Tools Used -->
+              <div class="project-tools">
+                <h4>Tools & Technologies</h4>
+                <div class="tools-list" id="modalToolsList">
+                  <!-- Tools dynamically populated -->
+                </div>
+              </div>
+            </div>
 
+            <!-- Right Column - Interactive Image Slideshow -->
+            <div class="project-gallery-column">
+              <div class="project-slideshow">
+                <div class="slideshow-container">
+                  <!-- Slides will be dynamically populated -->
+                </div>
 
-        <!-- Tools Used -->
-        <div class="project-tools">
-          <h4>Tools & Technologies</h4>
-          <div class="tools-list" id="modalToolsList">
-            <span class="tool-tag">Power BI</span>
-            <span class="tool-tag">Excel</span>
-            <span class="tool-tag">PowerPoint</span>
-            <span class="tool-tag">DAX</span>
-          </div>
+                <!-- Navigation Arrows -->
+                <button class="slide-nav prev" data-slide-prev>
+                  <ion-icon name="chevron-back-outline"></ion-icon>
+                </button>
+                <button class="slide-nav next" data-slide-next>
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </button>
+
+                <!-- Slide Indicators -->
+                <div class="slide-indicators">
+                  <!-- Indicators dynamically populated -->
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- 3. PROJECT DETAILS - In-depth Description -->
+          <section class="project-details">
+            <h3>Project Details</h3>
+            <div class="details-content" id="modalProjectDetails">
+              <!-- Details dynamically populated -->
+            </div>
+          </section>
+
+          <!-- 4. LIVE DASHBOARD -->
+          <section class="live-dashboard" style="display: none;">
+            <h3>🚀 Live Interactive Dashboard</h3>
+
+            <!-- IFRAME CONTAINER -->
+            <div id="dashboardIframeContainer" style="display: none; margin-top: 20px;">
+              <iframe id="powerBIFrame" title="Live Interactive Dashboard" width="100%" height="500px"
+                style="border: none; border-radius: 12px; box-shadow: var(--shadow-1);" allowFullScreen
+                loading="lazy"></iframe>
+              <div style="margin-top: 15px; text-align: center;">
+                <a href="#" id="openDashboardNewTab" target="_blank" style="display: inline-block;">
+                  <button class="form-btn" style="width: max-content; padding: 10px 20px;">
+                    <span>Open Dashboard in New Tab</span>
+                    <ion-icon name="open-outline"></ion-icon>
+                  </button>
+                </a>
+              </div>
+            </div>
+
+            <!-- FALLBACK MESSAGE -->
+            <div id="dashboardFallback" class="content-card"
+              style="margin-top: 20px; padding: 25px; display: none; flex-direction: column; gap: 15px;">
+              <h4 class="h4" style="color: var(--white-1);">Dashboard Unavailable</h4>
+              <p style="color: var(--light-gray); font-size: var(--fs-6); line-height: 1.6;">
+                The live interactive embedded dashboard is currently undergoing maintenance or is not publicly available
+                for this project.
+              </p>
+            </div>
+          </section>
+
         </div>
       </div>
-
-      <!-- Right Column - Interactive Image Slideshow -->
-      <div class="project-gallery-column">
-        <div class="project-slideshow">
-          <div class="slideshow-container">
-            <!-- Slides will be dynamically populated -->
-            <div class="slide active" id="modalSlide1">
-              <img src="./assets-2/EV Sales Mockup.png" alt="Dashboard Overview" loading="lazy">
-            </div>
-            <div class="slide" id="modalSlide2">
-              <img src="./assets-2/EV Sales Mockup.png" alt="Sales Trends" loading="lazy">
-            </div>
-            <div class="slide" id="modalSlide3">
-              <img src="./assets-2/EV Sales Mockup.png" alt="Regional Analysis" loading="lazy">
-            </div>
-          </div>
-
-          <!-- Navigation Arrows -->
-          <button class="slide-nav prev" data-slide-prev>
-            <ion-icon name="chevron-back-outline"></ion-icon>
-          </button>
-          <button class="slide-nav next" data-slide-next>
-            <ion-icon name="chevron-forward-outline"></ion-icon>
-          </button>
-
-          <!-- Slide Indicators -->
-          <div class="slide-indicators">
-            <span class="indicator active" data-slide-to="0"></span>
-            <span class="indicator" data-slide-to="1"></span>
-            <span class="indicator" data-slide-to="2"></span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- 3. PROJECT DETAILS - In-depth Description -->
-    <section class="project-details">
-      <h3>Project Details</h3>
-
-      <div class="details-content" id="modalProjectDetails">
-        <div class="detail-section">
-          <h4>🎯 Key Objectives</h4>
-          <ul>
-            <li>• Analyze EV sales trends across Indian states and union territories</li>
-            <li>• Identify top-performing manufacturers and vehicle categories</li>
-            <li>• Track market growth patterns and seasonal variations</li>
-            <li>• Provide actionable insights for stakeholders and investors</li>
-          </ul>
-        </div>
-
-        <div class="detail-section">
-          <h4>🔍 Key Findings</h4>
-          <ul>
-            <li>• Maharashtra leads with 35% of total EV sales in India</li>
-            <li>• 2-wheeler EVs dominate the market with 78% share</li>
-            <li>• 145% year-over-year growth in EV adoption</li>
-            <li>• Tata Motors and Mahindra are top performers in 4-wheeler segment</li>
-          </ul>
-        </div>
-
-        <div class="detail-section">
-          <h4>📊 Technical Implementation</h4>
-          <ul>
-            <li>• Built interactive dashboards with drill-down capabilities</li>
-            <li>• Implemented DAX calculations for complex metrics</li>
-            <li>• Created automated data refresh pipelines</li>
-            <li>• Designed mobile-responsive visualizations</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <!-- 4. LIVE DASHBOARD - Embedded Power BI -->
-    <section class="live-dashboard">
-      <h3>🚀 Live Interactive Dashboard</h3>
-      <p class="dashboard-description">
-        Explore the live dashboard below. Click on charts, apply filters, and interact with the data in real-time.
-      </p>
-
-      <div class="dashboard-embed" id="modalDashboardEmbed">
-        <!-- Power BI Embed will be inserted here -->
-        <iframe 
-          id="powerBIFrame"
-          width="100%" 
-          height="600" 
-          src="about:blank"
-          frameborder="0" 
-          allowFullScreen="true">
-        </iframe>
-
-        
-    </section>
-
-  </div>
-</div>
-
-
-        <!--
-            - PROJECT MODEL POP UP END
-        -->
-
 
       <!--
         - #BLOG
@@ -1826,72 +1514,85 @@
           <h2 class="h2 article-title">certificates</h2>
         </header>
 
-                  <!-- CERTIFICATES SECTION START -->
-          <section class="certificates" id="certificates">
-            <h3 class="h3 section-title">Certificate</h3>
+        <!-- CERTIFICATES SECTION START -->
+        <section class="certificates" id="certificates">
+          <h3 class="h3 section-title">Certificate</h3>
 
-            <div class="certificates-grid">
-              <div class="certificate-card" data-certificate-img="./assets-2/certificate/Google Analytics Certi.jpg">
-                <img src="./assets-2/certificate/Google Analytics Certi.jpg" alt="Google Data Analytics" class="certificate-img" />
-                <h4>Google Data Analytics</h4>
-                <p>Coursera • Nov 2022</p>
-              </div>
+          <div class="certificates-grid">
 
-
-              <div class="certificate-card" data-certificate-img="./assets-2/certificate/Data analytics with R.jpg">
-                <img src="./assets-2/certificate/Data analytics with R.jpg" alt="Data Analysis with R Programming" class="certificate-img" />
-                <h4>Data Analysis with R Programming</h4>
-                <p>Coursera • Nov 2022</p>
-              </div>
-
-              <div class="certificate-card" data-certificate-img="./assets-2/certificate/sql intermidiate.jpg">
-                <img src="./assets-2/certificate/sql intermidiate.jpg" alt="SQL Intermediate" class="certificate-img" />
-                <h4>SQL (Intermediate) Certificate</h4>
-                <p>HackerRank  • July 2024</p>
-              </div>
-
-              <div class="certificate-card" data-certificate-img="./assets-2/certificate/sql_advanced.jpg">
-                <img src="./assets-2/certificate/sql_advanced.jpg" alt="SQL Advanced" class="certificate-img" />
-                <h4>SQL (Advanced) Certificate</h4>
-                <p>HackerRank  • Nov 2025</p>
-              </div>
-
-
-              <div class="certificate-card" data-certificate-img="./assets-2/certificate/Microsoft and LinkedIn Certi.jpg">
-                <img src="./assets-2/certificate/Microsoft and LinkedIn Certi.jpg" alt="Power BI  Masterclass" class="certificate-img" />
-                <h4>Career Essentials in Data Analysis</h4>
-                <p>Microsoft and LinkedIn  • Nov 2024</p>
-              </div>
-
-              <div class="certificate-card" data-certificate-img="./assets-2/certificate/HP LIFE Certi.jpg">
-                <img src="./assets-2/certificate/HP LIFE Certi.jpg" alt="HP Life" class="certificate-img" />
-                <h4>HP Life Certificate</h4>
-                <p>HP Life  • Dec 2024</p>
-              </div>
-
-              <div class="certificate-card" data-certificate-img="./assets-2/certificate/copyright.jpg">
-                <img src="./assets-2/certificate/copyright.jpg" alt="HP Life" class="certificate-img" />
-                <h4>Copyright Certificate</h4>
-                <p>Copyright  • July 2023</p>
-              </div>
-
-              
-
-              <!-- Add more certificate cards here -->
+            <div class="certificate-card" data-certificate-img="./assets-2/certificate/DP-600 Certificate.jpg">
+              <img src="./assets-2/certificate/DP-600 Certificate.jpg"
+                alt="Microsoft Certified: Fabric Analytics Engineer Associate" class="certificate-img" />
+              <h4>Microsoft Certified: Fabric Analytics Engineer Associate</h4>
+              <p>Microsoft • June 2026</p>
             </div>
 
-            <div class="view-all-cert-btn-container" id="viewAllCertContainer" style="display: none; width: 100%; justify-content: center; margin-top: 20px;">
-              <button class="form-btn" id="viewAllCertBtn">
-                <span>View All Certificates</span>
-                <ion-icon name="chevron-down-outline"></ion-icon>
-              </button>
+
+            <div class="certificate-card" data-certificate-img="./assets-2/certificate/google-analytics-certi.jpg">
+              <img src="./assets-2/certificate/google-analytics-certi.jpg" alt="Google Data Analytics"
+                class="certificate-img" />
+              <h4>Google Data Analytics</h4>
+              <p>Coursera • Nov 2022</p>
             </div>
 
-    
-          </section>
-<!-- CERTIFICATES SECTION END -->
 
-        
+            <div class="certificate-card" data-certificate-img="./assets-2/certificate/data-analytics-with-r.jpg">
+              <img src="./assets-2/certificate/data-analytics-with-r.jpg" alt="Data Analysis with R Programming"
+                class="certificate-img" />
+              <h4>Data Analysis with R Programming</h4>
+              <p>Coursera • Nov 2022</p>
+            </div>
+
+            <div class="certificate-card" data-certificate-img="./assets-2/certificate/sql-intermediate.jpg">
+              <img src="./assets-2/certificate/sql-intermediate.jpg" alt="SQL Intermediate" class="certificate-img" />
+              <h4>SQL (Intermediate) Certificate</h4>
+              <p>HackerRank • July 2024</p>
+            </div>
+
+            <div class="certificate-card" data-certificate-img="./assets-2/certificate/sql_advanced.jpg">
+              <img src="./assets-2/certificate/sql_advanced.jpg" alt="SQL Advanced" class="certificate-img" />
+              <h4>SQL (Advanced) Certificate</h4>
+              <p>HackerRank • Nov 2025</p>
+            </div>
+
+
+            <div class="certificate-card" data-certificate-img="./assets-2/certificate/microsoft-linkedin-certi.jpg">
+              <img src="./assets-2/certificate/microsoft-linkedin-certi.jpg" alt="Power BI  Masterclass"
+                class="certificate-img" />
+              <h4>Career Essentials in Data Analysis</h4>
+              <p>Microsoft and LinkedIn • Nov 2024</p>
+            </div>
+
+            <div class="certificate-card" data-certificate-img="./assets-2/certificate/hp-life-certi.jpg">
+              <img src="./assets-2/certificate/hp-life-certi.jpg" alt="HP Life" class="certificate-img" />
+              <h4>hp-life-certificate</h4>
+              <p>HP Life • Dec 2024</p>
+            </div>
+
+            <div class="certificate-card" data-certificate-img="./assets-2/certificate/copyright.jpg">
+              <img src="./assets-2/certificate/copyright.jpg" alt="HP Life" class="certificate-img" />
+              <h4>Copyright Certificate</h4>
+              <p>Copyright • July 2023</p>
+            </div>
+
+
+
+            <!-- Add more certificate cards here -->
+          </div>
+
+          <div class="view-all-cert-btn-container" id="viewAllCertContainer"
+            style="display: none; width: 100%; justify-content: center; margin-top: 20px;">
+            <button class="form-btn" id="viewAllCertBtn">
+              <span>View All Certificates</span>
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </button>
+          </div>
+
+
+        </section>
+        <!-- CERTIFICATES SECTION END -->
+
+
 
 
       </article>
@@ -1965,14 +1666,10 @@
 
 
 
-            <iframe 
-              src= "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13696.788462809503!2d73.80997564224505!3d18.48995502171965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bfe79bf771d7%3A0xac81e25be4cc4bf!2sKarvenagar%2C%20Pune%2C%20Maharashtra!5e1!3m2!1sen!2sin!4v1764154731968!5m2!1sen!2sin"
-              width="600" 
-              height="450" 
-              style="border:0; filter: grayscale(1) invert(1);" 
-              allowfullscreen="" 
-              loading="lazy" 
-              referrerpolicy="no-referrer-when-downgrade">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13696.788462809503!2d73.80997564224505!3d18.48995502171965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bfe79bf771d7%3A0xac81e25be4cc4bf!2sKarvenagar%2C%20Pune%2C%20Maharashtra!5e1!3m2!1sen!2sin!4v1764154731968!5m2!1sen!2sin"
+              width="600" height="450" style="border:0; filter: grayscale(1) invert(1);" allowfullscreen=""
+              loading="lazy" referrerpolicy="no-referrer-when-downgrade">
             </iframe>
 
 
@@ -1981,7 +1678,7 @@
 
         <section class="contact-form">
 
-          <h3 class="h3 form-title">Reach me out</h3>
+          <h3 class="h3 form-title">Reach Out</h3>
 
           <ul class="contact-list">
 
@@ -2012,7 +1709,8 @@
               </div>
               <div class="contact-info">
                 <p class="contact-title">LinkedIn</p>
-                <a href="https://www.linkedin.com/in/tushar-kshirsagar11/" target="_blank" class="contact-link">linkedin.com/in/tushar-kshirsagar11/</a>
+                <a href="https://www.linkedin.com/in/tushar-kshirsagar11/" target="_blank"
+                  class="contact-link">linkedin.com/in/tushar-kshirsagar11/</a>
               </div>
             </li>
 
@@ -2043,13 +1741,8 @@
           </ul>
 
 
-            <a href="./resume.pdf" download="Tushar_Kshirsagar_Resume" class="download-link">
-              <button class="form-btn" type="submit" data-form-btn>
-                <ion-icon name="arrow-down"></ion-icon>
-                <span>Download Resume</span>
-              </button>
-            </a>
-<!--   
+
+          <!--   
             <li class="contact-item">
 
               <div class="icon-box">
@@ -2100,9 +1793,10 @@
   </div>
 
 
-  <!--
-    - custom js link
-  -->
+  <!-- Project Data -->
+  <script src="assets/js/project-data.js"></script>
+
+  <!-- Custom js link -->
   <script src="assets/js/script.js"></script>
 
   <!--
